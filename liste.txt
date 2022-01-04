@@ -1,0 +1,10 @@
+mousqueton  Mousqueton d'accroche pour intervention
+gants Gants d’intervention et de protection
+brassard  Brassard de sécurité
+menottes  Porte menottes à la ceinture
+cyno  Bandeau agent cynophile
+talky Talkies walkies
+lampe Lampe Torche
+kit Kit oreillette
+taser Tasers
+lacrymo Bombes lacrymogènes
