@@ -4,6 +4,6 @@ Agent de surveillance
 Ultr4$eCUr3!
 
 lampe
-badge
+mattraque
 taser
 menottes
