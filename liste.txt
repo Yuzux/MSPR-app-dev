@@ -9,3 +9,4 @@ kit Kit oreillette
 taser Tasers
 lacrymo Bombes lacrymogènes
 outils  Outils de réparations
+mattraque Mattraque téléscopique d'intervention
