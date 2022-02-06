@@ -3,9 +3,9 @@ Maximilien
 Gardien de nuit
 ADFEMNFE146
 
-lampe
+Lampe
 kit
-talky
-brassard
-menottes
-taser
+Talky
+Brassard
+Menottes
+Taser
