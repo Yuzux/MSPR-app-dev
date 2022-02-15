@@ -9,7 +9,7 @@ pipeline {
     stage('Deploy') {
         steps {
             sh 'javac generator.java'
-            sh 'java generator'
+            sh 'java generator.java'
             echo 'Deploying....'
         }
     }
