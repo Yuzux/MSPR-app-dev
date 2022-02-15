@@ -8,8 +8,8 @@ pipeline {
     }
     stage('Deploy') {
         steps {
-            sh 'sudo javac generator.java'
-            sh 'sudo java generator'
+            sh 'javac generator.java'
+            sh 'java generator'
             echo 'Deploying....'
         }
     }
