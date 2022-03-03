@@ -157,9 +157,9 @@ public class generator {
                         }
                     }
                     if (verif == true) {
-                        wr2.println(li1[i] + " <input type='checkbox' checked> <br>");
+                        wr2.println(li2[i] + " <input type='checkbox' checked> <br>");
                     } else {
-                        wr2.println(li1[i] + " <input type='checkbox'><br>");
+                        wr2.println(li2[i] + " <input type='checkbox'><br>");
                     }
                 }
 
