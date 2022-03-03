@@ -15,7 +15,6 @@ pipeline {
         stage('Deploy') {
             steps {
                  sh 'sudo javac generator.java'
-        sh 'sudo java generator'
             }
         }
     }
