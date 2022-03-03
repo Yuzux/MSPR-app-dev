@@ -92,8 +92,8 @@ public class generator {
 
             for (String nom : staff) {
 
-                String srcPath = "/var/www/html/png/" + nom + ".png";
-                String destPath = "/var/www/html/png/";
+                String srcPath = "html/png/" + nom + ".png";
+                String destPath = "html/png/";
                 File srcFile = new File(srcPath);
                 File destFile = new File(destPath + srcFile.getName());
 
