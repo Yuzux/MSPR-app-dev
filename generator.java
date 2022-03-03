@@ -107,7 +107,7 @@ public class generator {
                 wr.println("<div class='round'> <div class='ma'><tr><td class='click' onClick='window.location.href=\"txt/" + nom + ".html\"'>" + Nom
                         + "</td></tr> </div> </div>");
 
-                String fileName2 = "html/txt/" + nom + ".html";
+                String fileName2 = "txt/" + nom + ".html";
                 PrintWriter wr2 = new PrintWriter(fileName2, encod);
 
                 wr2.println(
