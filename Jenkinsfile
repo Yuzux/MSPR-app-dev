@@ -16,7 +16,6 @@ pipeline {
             steps {
                  sh 'sudo javac generator.java'
         sh 'sudo java generator'
-        echo 'Deploying....'
             }
         }
     }
