@@ -3,6 +3,6 @@ sconnor
 jmacclane
 afoley
 mriggs
-jwest 
-sholmes 
+jwest
+sholmes
 jrouletabille
