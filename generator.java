@@ -87,7 +87,7 @@ public class generator {
             wr.println(
                     "<!DOCTYPE html>  <head> <title>GO Sécuri</title> <link rel='stylesheet' href='style.css'/> </head>");
             wr.println(
-                    "<body class='bck'> <div> <img src='GOS.png' alt=''> </div> <div class='round'> <div class='ma'> </div> </div> </body>");
+                    "<body class='bck'> <div> <img src='GOS.png' alt=''> </div>  </body>");
             wr.println("<footer> <p>*GO Sécuri tous droits réservé Entreprise titulaire </p> </footer> </html>");
 
             for (String nom : staff) {
@@ -104,8 +104,8 @@ public class generator {
                 }
 
                 String Nom = nom.substring(0, 1).toUpperCase() + nom.substring(1);
-                wr.println("<tr><td class='click' onClick='window.location.href=\"html/txt/" + nom + ".html\"'>" + Nom
-                        + "</td></tr>");
+                wr.println("<div class='round'> <div class='ma'><tr><td class='click' onClick='window.location.href=\"txt/" + nom + ".html\"'>" + Nom
+                        + "</td></tr> </div> </div>");
 
                 String fileName2 = "html/txt/" + nom + ".html";
                 PrintWriter wr2 = new PrintWriter(fileName2, encod);
