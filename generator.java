@@ -107,14 +107,14 @@ public class generator {
                 wr.println("<div class='round'> <div class='ma'><tr><a href='txt/" + nom + ".html'>" + Nom
                         + "</a></tr> </div> </div>");
 
-                String fileName2 = "txt/" + nom + ".html";
+                String fileName2 = "html/txt/" + nom + ".html";
                 PrintWriter wr2 = new PrintWriter(fileName2, encod);
 
                 wr2.println(
                         "<!doctype html>  <html lang='fr'> <head> <meta charset='utf-8'> <title>GO Securi</title> <link rel='stylesheet' href='style.css'> <link rel='icon' href='favicon.ico' /> </head>");
                 wr2.println("<body> <div class='corps'> <table> <tr class='haut'><td class='gauche'> <div>" + Nom
                         + "</div> </td>");
-                wr2.println("<td class='droit'> <img src = 'html/png/" + nom + ".jpg'></td> </tr> <tr> <td class='bas'>");
+                wr2.println("<td class='droit'> <img src = 'png/" + nom + ".jpg'></td> </tr> <tr> <td class='bas'>");
                 co = 0;
                 try {
                     FileInputStream f2 = new FileInputStream("html/txt/" + nom + ".txt");
