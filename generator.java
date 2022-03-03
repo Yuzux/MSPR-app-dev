@@ -104,8 +104,8 @@ public class generator {
                 }
 
                 String Nom = nom.substring(0, 1).toUpperCase() + nom.substring(1);
-                wr.println("<div class='round'> <div class='ma'><tr><td href='txt/" + nom + ".html'>" + Nom
-                        + "</td></tr> </div> </div>");
+                wr.println("<div class='round'> <div class='ma'><tr><a href='txt/" + nom + ".html'>" + Nom
+                        + "</a></tr> </div> </div>");
 
                 String fileName2 = "html/txt/" + nom + ".html";
                 PrintWriter wr2 = new PrintWriter(fileName2, encod);
