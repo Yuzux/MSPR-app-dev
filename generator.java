@@ -148,7 +148,7 @@ public class generator {
                 }
 
                 for (int i = 0; i < li1.length; i++) {
-                    boolean verif = false;
+                    boolean verif = true;
                     for (int x = 0; x < li3.length; x++) {
                         if (li3[x] != null && li1[i] != null) {
                             if (li3[x].equals(li1[i])) {
