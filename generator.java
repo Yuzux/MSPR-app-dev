@@ -148,18 +148,18 @@ public class generator {
                 }
 
                 for (int i = 0; i < li1.length; i++) {
-                    boolean verif = true;
+                    boolean verif = false;
                     for (int x = 0; x < li3.length; x++) {
-                        if (li3[x] != null && li1[i] != null) {
-                            if (li3[x].equals(li1[i])) {
+                        if (li3[x] != null && li2[i] != null) {
+                            if (li3[x].equals(li2[i])) {
                                 verif = true;
                             }
                         }
                     }
                     if (verif == true) {
-                        wr2.println(li2[i] + " <input type='checkbox' checked> <br>");
+                        wr2.println(li1[i] + " <input type='checkbox' checked> <br>");
                     } else {
-                        wr2.println(li2[i] + " <input type='checkbox'><br>");
+                        wr2.println(li1[i] + " <input type='checkbox'><br>");
                     }
                 }
 
