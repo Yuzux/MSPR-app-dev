@@ -31,7 +31,7 @@ public class generator {
             Scanner scan = new Scanner(f);
 
             while (scan.hasNextLine()) {
-                StringTokenizer str = new StringTokenizer(scan.nextLine(), "\\t");
+                StringTokenizer str = new StringTokenizer(scan.nextLine(), "\t");
                 int po = 0;
                 while (str.hasMoreElements()) {
                     if (po == 0) {
