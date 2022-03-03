@@ -31,7 +31,7 @@ public class generator {
             Scanner scan = new Scanner(f);
 
             while (scan.hasNextLine()) {
-                StringTokenizer str = new StringTokenizer(scan.nextLine(), "\t");
+                StringTokenizer str = new StringTokenizer(scan.nextLine(), "\\t");
                 int po = 0;
                 while (str.hasMoreElements()) {
                     if (po == 0) {
@@ -150,8 +150,8 @@ public class generator {
                 for (int i = 0; i < li1.length; i++) {
                     boolean verif = false;
                     for (int x = 0; x < li3.length; x++) {
-                        if (li3[x] != null && li2[i] != null) {
-                            if (li3[x].equals(li2[i])) {
+                        if (li3[x] != null && li1[i] != null) {
+                            if (li3[x].equals(li1[i])) {
                                 verif = true;
                             }
                         }
