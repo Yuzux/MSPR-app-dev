@@ -87,12 +87,8 @@ public class generator {
             wr.println(
                     "<!DOCTYPE html>  <head> <title>GO Sécuri</title> <link rel='stylesheet' href='style.css'/> </head>");
             wr.println(
-                    "<body class='bck'> <div> <img src='/png/GOS.png' alt=''>/*</div>  </body>*/");
-            wr.println("<div class='round'> <div class='ma'>");
-                String Nom = nom.substring(0, 1).toUpperCase() + nom.substring(1);
-                wr.println("<tr><a href='txt/" + nom + ".html'>" + Nom + "</a></tr>");
-                wr.println("</div> </div>");
-            wr.println("</div>  </body>");
+                    "<body class='bck'> <div> <img src='/png/GOS.png' alt=''></div>  </body>");
+           
             wr.println("<footer> <p>*GO Sécuri tous droits réservé Entreprise titulaire </p> </footer> </html>");
 
             for (String nom : staff) {
@@ -108,10 +104,10 @@ public class generator {
                     System.out.println(err);
                 }
 
-                /*wr.println("<div class='round'> <div class='ma'>");
+                wr.println("<div class='round'> <div class='ma'>");
                 String Nom = nom.substring(0, 1).toUpperCase() + nom.substring(1);
                 wr.println("<tr><a href='txt/" + nom + ".html'>" + Nom + "</a></tr>");
-                wr.println("</div> </div>");*/
+                wr.println("</div> </div>");
                 
 
                 String fileName2 = "html/txt/" + nom + ".html";
