@@ -87,7 +87,7 @@ public class generator {
             wr.println(
                     "<!DOCTYPE html>  <head> <title>GO Sécuri</title> <link rel='stylesheet' href='style.css'/> </head>");
             wr.println(
-                    "<body class='bck'> <div> <img src='GOS.png' alt=''> </div>  </body>");
+                    "<body class='bck'> <div> <img src='/png/GOS.png' alt=''> </div>  </body>");
             wr.println("<footer> <p>*GO Sécuri tous droits réservé Entreprise titulaire </p> </footer> </html>");
 
             for (String nom : staff) {
