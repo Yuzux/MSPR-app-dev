@@ -111,7 +111,7 @@ public class generator {
                 PrintWriter wr2 = new PrintWriter(fileName2, encod);
 
                 wr2.println(
-                        "<!doctype html>  <html lang='fr'> <head> <meta charset='utf-8'> <title>GO Securi</title> <link rel='stylesheet' href='/html/style.css'> <link rel='icon' href='favicon.ico' /> </head>");
+                        "<!doctype html>  <html lang='fr'> <head> <meta charset='utf-8'> <title>GO Securi</title> <link rel='stylesheet' href='style2.css'> <link rel='icon' href='favicon.ico' /> </head>");
                 wr2.println("<body> <div class='corps'> <table> <tr class='haut'><td class='gauche'> <div>" + Nom
                         + "</div> </td>");
                 wr2.println("<td> <img src='/png/" + nom + ".png' class='CNI'></td> </tr> <tr> <td class='bas'>");
