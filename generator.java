@@ -85,7 +85,7 @@ public class generator {
             PrintWriter wr = new PrintWriter(filename, encod);
             // mettre code html
             wr.println(
-                    "<!DOCTYPE html>  <head> <title>GO Sécuri</title> <link rel='stylesheet' href='style.css'/> </head>");
+                    "<!DOCTYPE html> <meta charset='UTF-8'>  <head> <title>GO Sécuri</title> <link rel='stylesheet' href='style.css'/> </head>");
             wr.println(
                     "<body class='bck'> <div> <img src='/png/GOS.png' alt=''></div>  <div class='round'> <div class='ma'>");
            
