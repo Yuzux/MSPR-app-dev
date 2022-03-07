@@ -13,7 +13,7 @@ body{
 
 }
 li{
-    text-justify: inter-word;
+    text-justify: distribute;
     margin: 5%;
 }
 a{
