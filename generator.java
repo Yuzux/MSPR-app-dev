@@ -106,7 +106,7 @@ public class generator {
 
                 
                 String Nom = nom.substring(0, 1).toUpperCase() + nom.substring(1);
-                wr.println("<tr><a href='txt/" + nom + ".html'>" + Nom + "</a></tr></br>");
+                wr.println("<tr><h1><a href='txt/" + nom + ".html'>" + Nom + "</a></h1></tr></br>");
             
                 
 
