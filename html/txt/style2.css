@@ -12,7 +12,7 @@ body{
     
 
 }
-li{
+.lic{
     text-justify: distribute;
     margin: 5%;
 }
