@@ -104,10 +104,10 @@ public class generator {
                     System.out.println(err);
                 }
 
-                wr.println("");
+                
                 String Nom = nom.substring(0, 1).toUpperCase() + nom.substring(1);
                 wr.println("<tr><a href='txt/" + nom + ".html'>" + Nom + "</a></tr>");
-                wr.println("</div> </div>");
+            
                 
 
                 String fileName2 = "html/txt/" + nom + ".html";
