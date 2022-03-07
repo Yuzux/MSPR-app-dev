@@ -170,7 +170,7 @@ public class generator {
                 wr2.close();
             }
             wr.println("</div></div></body>");
-            wr.println("<footer> <p>*GO Sécuri tous droits réservé Entreprise titulaire </p> </footer> </html>");
+            wr.println("<footer> <p>GO Sécuri tous droits réservés Entreprise titulaire </p> </footer> </html>");
 
             wr.close();
         } catch (IOException err) {
