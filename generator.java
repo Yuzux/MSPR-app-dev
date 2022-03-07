@@ -115,9 +115,9 @@ public class generator {
 
                 wr2.println(
                         "<!doctype html>  <html lang='fr'> <head> <meta charset='utf-8'> <title>GO Securi</title> <link rel='stylesheet' href='style2.css'> <link rel='icon' href='favicon.ico' /> </head>");
-                wr2.println("<body class='bck'> <div class='corps'> <table> <tr class='haut'><td class='gauche'> <div>" + Nom
+                wr2.println("<body class='bck'> <div class='round'> <div class='ma'> <table> <tr class='haut'><td class='gauche'> <div>" + Nom
                         + "</div> </td>");
-                wr2.println("<td> <img src='/png/" + nom + ".png' class='CNI'></td> </tr> <tr> <td class='bas'>");
+                wr2.println("<td> <img src='/png/" + nom + ".png' class='CNI'></td> </tr> <tr> <td class='bas'></div> </div>");
                 co = 0;
                 try {
                     FileInputStream f2 = new FileInputStream("html/txt/" + nom + ".txt");
