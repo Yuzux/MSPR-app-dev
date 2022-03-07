@@ -149,7 +149,7 @@ public class generator {
                 } catch (IOException err) {
                     err.printStackTrace();
                 }
-
+                wr2.println("<div class='lic'>");
                 for (int i = 0; i < li1.length; i++) {
                     boolean verif = false;
                     for (int x = 0; x < li3.length; x++) {
@@ -165,7 +165,7 @@ public class generator {
                         wr2.println(li1[i] + " <input type='checkbox' onclick='return false;'><br>");
                     }
                 }
-
+                wr2.println("</div>");
                 wr2.println("</td><td></td> </tr></table> </div></body> </html>");
                 wr2.close();
             }
