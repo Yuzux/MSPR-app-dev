@@ -172,7 +172,6 @@ public class generator {
             wr.println("</div></div></body>");
             wr.println("<footer> <p>*GO Sécuri tous droits réservé Entreprise titulaire </p> </footer> </html>");
 
-            wr.println("<tbody> </table> </div> </body> </html>");
             wr.close();
         } catch (IOException err) {
             System.out.println("An error occurred.");
