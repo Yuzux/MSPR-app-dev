@@ -13,10 +13,7 @@ body{
 
 }
 input {   float: right;   clear: both; }
-.lic{
-    text-justify: distribute;
-    margin: 5%;
-}
+
 a{
     color: #659224;
     
