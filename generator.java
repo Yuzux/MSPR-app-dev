@@ -166,7 +166,7 @@ public class generator {
                     }
                 }
                 wr2.println("</div>");
-                wr2.println("</td><td></td> </tr></table> </div></body> </html>");
+                wr2.println("</td> </tr></table> </div></body> </html>");
                 wr2.close();
             }
             wr.println("</div></div></body>");
