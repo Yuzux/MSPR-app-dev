@@ -14,7 +14,7 @@ body{
 }
 li{
     text-justify: inter-word;
-    padding: 5%;
+    margin: 5%;
 }
 a{
     color: #659224;
