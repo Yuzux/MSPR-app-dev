@@ -13,6 +13,10 @@ body{
 
 }
 input {   float: right;   clear: both; }
+.lic{
+    width:20rem;
+    
+}
 
 a{
     color: #659224;
