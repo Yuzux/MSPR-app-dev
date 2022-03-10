@@ -1,9 +1,12 @@
 .CNI{
     display: block;
-    width: 20rem; 
+    width: 20rem;
+    margin-left: auto; 
+    margin-right: 0;
 }
 .nme{
-    float: left;
+    margin-left: 0; 
+    margin-right: auto;
     width: 20rem;
 }
 .cen{
