@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'sudo java -jar generator.jar'
+                sh 'java -jar generator.jar'
             }
         }
     }
