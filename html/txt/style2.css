@@ -1,11 +1,11 @@
 .CNI{
-    display: flex;
-    width: 20rem; 
+    width: 20rem;
+    margin-left: auto;
     margin-right: 0;
 }
 .nme{
-    display: flex;
     margin-left: 0;
+    margin-right: auto;
     width: 20rem;
 }
 .cen{
