@@ -1,7 +1,7 @@
 .CNI{
     display: block;
     width: 20rem;
-    float: right; 
+    margin-right: absolute; 
 }
 .nme{
     float: left;
