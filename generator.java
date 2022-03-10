@@ -113,10 +113,8 @@ public class generator {
                 String fileName2 = "html/txt/" + nom + ".html";
                 PrintWriter wr2 = new PrintWriter(fileName2, encod);
 
-                wr2.println(
-                        "<!doctype html>  <html lang='fr'> <head> <meta charset='utf-8'> <title>GO Securi</title> <link rel='stylesheet' href='style2.css'> <link rel='icon' href='favicon.ico' /> </head>");
-                wr2.println("<body class='bck'><img src='/png/GOS.png' alt='' class='cen'> <div class='round'> <div class='ma'> <table> <tr class='haut'> <td> <div class='nme'><h1>" + Nom
-                        + "</h1></div> </td>");
+                wr2.println("<!doctype html>  <html lang='fr'> <head> <meta charset='utf-8'> <title>GO Securi</title> <link rel='stylesheet' href='style2.css'> <link rel='icon' href='favicon.ico' /> </head>");
+                wr2.println("<body class='bck'><img src='/png/GOS.png' alt='' class='cen'> <div class='round'> <div class='ma'> <table> <tr class='haut'> <td> <div class='nme'><h1>" + Nom + "</h1></div> </td>");
                 wr2.println("<td> <img src='/png/" + nom + ".png' class='CNI'></td> </tr> </div> </div>");
                 co = 0;
                 try {
@@ -166,7 +164,7 @@ public class generator {
                     }
                 }
                 wr2.println("</div>");
-                wr2.println("</td> </tr></table> </div></body> </html>");
+                wr2.println("</td> </tr> </table> </div> </body> </html>");
                 wr2.close();
             }
             wr.println("</div></div></body>");
